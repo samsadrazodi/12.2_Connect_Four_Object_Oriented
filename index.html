@@ -1,0 +1,42 @@
+<!doctype html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div>
+    <input id="p1-name" placeholder="Player 1 name">
+    <input type="color" id="p1-color" placeholder="Player 1 color">
+  </div>
+  <div>
+    <input id="p2-name" placeholder="Player 2 name">
+    <input type="color" id="p2-color" placeholder="Player 2 color">
+  </div>
+
+
+  <button id="start-game">Start Game!</button>
+
+  <div id="players">
+    <div id="player1">
+      <p id="player1name"></p> <span class="dotPlayer1"></span>
+    </div>
+    <div id="player2">
+      <p id="player2name"></p><span class="dotPlayer2"></span>
+    </div>
+  </div>
+
+
+  <div id="game">
+    <table id="board"></table>
+  </div>
+
+
+  <script src="connect4.js"></script>
+
+</body>
+
+</html>
